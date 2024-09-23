@@ -78,7 +78,7 @@ function parseRequest(req) {
     body: null,
     query: null
   }
-
+  request.headers = parseHeader(request.headers, )
   // call the other functions below as needed
 
   return request
